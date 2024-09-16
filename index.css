@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom ,lavender ,purple);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type="text"]{
+    padding:8px;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+button{
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: skyblue;
+    color:white;
+}
+table{
+    border:2px solid black;
+    margin-top: 20px;
+    padding:10px;
+
+
+}
+th{
+    border:1px solid black;
+    color:white;
+    background-color: aqua;
+    padding:10px;
+}
+td{
+    border:1px black solid;
+    padding:5px;
+}
