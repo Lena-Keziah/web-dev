@@ -3,15 +3,52 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom ,lavender ,purple);
     background-repeat: no-repeat;
     background-size: cover;
 }
+    h1{
+        text-align: center;
+    }
+    .navbar {
+         
+         background-color: skyblue;
+         align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        padding-left: 300px;
+        padding-right: 300px;
+        position: relative;
+    }
+   
+    
+    .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        position: absolute;
+        right:20px;
+        gap: 4px
+    }
+    .logo{
+        position: absolute;
+        left:20px;
+    }
+     .nav-links a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .navbar a:hover{
+        background-color: rgb(196, 255, 240);
+    }
 input[type="text"]{
     padding:8px;
     text-align: center;
-    background-color: aquamarine;
-    
 }
 button{
     padding-top:8px;
