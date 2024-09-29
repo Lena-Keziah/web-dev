@@ -31,11 +31,15 @@ body{
         margin-left: auto;
         position: absolute;
         right:20px;
-        gap: 4px
+        gap: 10px
     }
     .logo{
         position: absolute;
-        left:20px;
+        left:5px;
+        width: 30px;
+        height: auto;
+        transform: scale(0.25);
+
     }
      .nav-links a{
         text-decoration: none;
@@ -44,11 +48,11 @@ body{
         text-transform: uppercase;
     }
     .navbar a:hover{
-        background-color: rgb(196, 255, 240);
+        color:bisque;
     }
 input[type="text"]{
     padding:8px;
-    text-align: center;
+    
 }
 button{
     padding-top:8px;
